@@ -1,0 +1,6 @@
+first_file = open("my_first_file.txt", "w", encoding="utf-8")
+print("Семенов\n", end="", file=first_file)
+print("Иркутск\n", end="", file=first_file)
+print("Эмираты\n", end="", file=first_file)
+print("Ваня\n", end="", file=first_file)
+first_file.close()
