@@ -42,7 +42,7 @@ class PoliceCar(Car):
 
 town_car = TownCar("Городская", "синий", 2020)
 sport_car = SportCar("Спортивная", "желто-черный", 2021)
-work_car = WorkCar("Рабочая", "синяя", 2016)
+work_car = WorkCar("Рабочая", "синяя", 2015)
 police_car = PoliceCar("Полицейская", "бела-синяя", 2017)
 
 cataloge_cars = [town_car, sport_car, work_car, police_car]
